@@ -1,0 +1,4 @@
+[mysqld]
+server-id         = 2     # must be different from master
+relay-log         = relay-log
+read-only         = 1     # slaves should not accept writes

@@ -1,0 +1,5 @@
+[mysqld]
+server-id         = 1
+log-bin           = mysql-bin     # enables binary logging
+binlog-format     = ROW          # log actual row changes (safest)
+binlog-do-db      = testdb       # only replicate this DB
